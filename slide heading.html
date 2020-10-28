@@ -1,0 +1,49 @@
+<html>
+<head>
+<script type="text/javascript">
+var d3 =
+{
+    textParam1: function(myVal) { document.getElementById("heading").innerHTML = myVal; },
+    textParam2: function(myVal) { document.getElementById("subtitle").innerHTML = myVal; },
+}
+</script>
+<style>
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+#heading {
+	font-family: Arial;
+	font-size: 15em;
+	color: white;
+}
+
+#subtitle {
+	font-family: Arial;
+	font-size: 8em;
+	color: white;
+}
+</style>
+</head>
+<body style="background:rgba(255, 255, 255, 0);margin:0px">
+	<div class="container">
+		<div class="center">
+			<p id="heading" />
+			<p id="subtitle" />
+		</div>
+	</div>
+</body>
+</html>
